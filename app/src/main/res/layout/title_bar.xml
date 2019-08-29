@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="12">
+        <ImageView
+            android:id="@+id/navigation_back"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/ic_chevron_left"
+            android:tint="@color/colorPrimary"></ImageView>
+        <TextView
+            android:layout_width="0dp"
+            android:id="@+id/title_text"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:text="Pengantaran"
+            android:textSize="20dp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
